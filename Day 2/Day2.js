@@ -21,4 +21,7 @@ console.log('5-' + string.split(' '))
 
 console.log('6-' + company.split(','))
 
+
+
+//Replace the specific with different word
 console.log('7-' + string.replace('javascript', "Python"))
