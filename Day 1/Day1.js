@@ -1,5 +1,6 @@
-
 //Welcome to 30 Days of JavaScript
+
+//Comments make code more readable
 
 
 //variables
