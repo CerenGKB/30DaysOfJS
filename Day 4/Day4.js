@@ -85,10 +85,7 @@ switch(month){
     
     }
 
-
  */
-
-
 
 //Exercises level 2 - 12
 

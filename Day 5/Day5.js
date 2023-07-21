@@ -26,6 +26,20 @@ const itCompanies = ['Facebook', 'Google' ,'Microsoft' ,'Apple', "IBM","Oracle",
 // 7- Print the array using console.log()
 console.log("Company array is " + itCompanies)
 
-for(const element of newArrNums){
-    console.log(element)
-}
+// 8 - Print the number of companies in the array
+
+console.log("Number of companies in the array is " +itCompanies.length)
+
+// 9 - Print the first company, middle and last company
+console.log('First Company is ' + itCompanies[0]) //first index
+let middleCompany = Math.floor(newArrNums.length / 2)
+console.log('Middle Company is ' + itCompanies[middleCompany])
+let lastCompany = newArrNums.length - 1
+console.log('Last Company is ' + itCompanies[lastCompany])
+
+// 10 - Print out each company
+console.log(...itCompanies)
+
+// 11 -Change each company name to uppercase one by one and print them out
+const upperCaseArr = itCompanies.map(element => element.toUpperCase())
+console.log('Array with uppercase is: ' + upperCaseArr)
