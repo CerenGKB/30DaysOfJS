@@ -119,3 +119,16 @@ console.log("Array without last item is " + newItCompanies)
 // 23 - Remove all
 
 console.log(newItCompanies.splice(0,newItCompanies.length))
+
+
+// Find the average age(all items divided by number of items)
+const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+
+let sumOfAges = 0
+
+for(let i =0 ; i < ages.length ; i++){
+    sumOfAges += ages[i]
+}
+
+let averageAge = Math.floor(sumOfAges / ages.length)
+console.log(averageAge)
