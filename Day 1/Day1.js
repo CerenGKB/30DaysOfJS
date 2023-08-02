@@ -21,6 +21,6 @@ console.log(typeof truthValue) // boolean
 console.log(typeof null) //object
 console.log(typeof empytValue) // undefined
 console.log(typeof emptyObj) // object
-
+console.log(typeof NaN) // Number
 console.log("I am " + myAge + " years old")
 console.log("You are " + yourAge + " years old")
