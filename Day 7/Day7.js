@@ -59,7 +59,7 @@ function areaOfCircle(r){
 
 console.log(areaOfCircle(6))
 
-
+// 8 - Circumference of a circle is calculated as follows: circumference = 2πr. Write a function which calculates circumOfCircle
 
 function circumferenceOfCircle(r){
     const circumference = Math.floor(Math.PI * 2* r)
